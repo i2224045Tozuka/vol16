@@ -1,0 +1,48 @@
+   .area {
+    width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .tab_class {
+    width: calc(100%/2);
+    height: 50px;
+    background-color: rgb(234, 244, 255);
+    line-height: 50px;
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    float: left;
+    order: -1;
+  }
+   
+  input[name="tab_name"] {
+    display: none;
+  }
+   
+  input:checked + .tab_class {
+    background-color: rgb(239, 226, 255);
+    color: rgb(0, 1, 2);
+  }
+   
+  .content_class {
+    display: none;
+    width: 100%;
+  }
+   
+  input:checked + .tab_class + .content_class {
+    display: block;
+  }
+
+
+ 
+  .grid{
+    display: grid;
+    gap: 30px;
+    grid-template-columns:repeat(3, minmax(240px,1fr));
+    margin-top: 6%;
+  }
+
+  p.img_center{
+    text-align: center;
+  }
