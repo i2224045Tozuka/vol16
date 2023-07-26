@@ -1,0 +1,21 @@
+#wrap{
+    width: 1600px;
+    height: 1000px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background: url(usi.jpg);
+}
+
+#top{
+    width: 1600px;
+    height: 40px;
+}
+
+#middle{
+    color: rgb(126, 126, 126);
+    font-size: 20px;
+    width: 1600px;
+    height: 1000px;
+    text-decoration-line: none;
+}

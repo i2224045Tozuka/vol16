@@ -1,0 +1,93 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    width: 1600px;
+    font-family: "Arial",'メイリオ';
+    background-color: #eaeaea;
+}
+
+#menu{
+    width: 1600px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#menu li{
+    width: 320px;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+}
+
+#menu li.menu01 a{
+    width: 320px;
+    height: 60px;
+    color:rgb(255, 255, 255);
+    font-size: 150%;
+    background:#e9e9ee;
+    text-decoration: none;
+    display: block;
+}
+
+#menu li.menu01 a:hover{
+    background: #000;
+}
+
+#menu li.menu02 a{
+    width: 320px;
+    height: 60px;
+    color:rgb(0, 0, 0);
+    font-size: 150%;
+    background:#e9e9ee;
+    text-decoration: none;
+    display: block;
+}
+
+#menu li.menu02 a:hover{
+    background: #ffffff;
+}
+
+#menu li.menu03 a{
+    width: 320px;
+    height: 60px;
+    color:rgb(255, 255, 255);
+    font-size: 150%;
+    background:#e9e9ee;
+    text-decoration: none;
+    display: block;
+}
+
+#menu li.menu03 a:hover{
+    background: #000;
+}
+
+#menu li.menu04 a{
+    width: 320px;
+    height: 60px;
+    color:rgb(0, 0, 0);
+    font-size: 150%;
+    background:#e9e9ee;
+    text-decoration: none;
+    display: block;
+}
+
+#menu li.menu04 a:hover{
+    background: #ffffff;
+}
+
+#menu li.menu05 a{
+    width: 320px;
+    height: 60px;
+    color:rgb(255, 255, 255);
+    font-size: 150%;
+    background:#e9e9ee;
+    text-decoration: none;
+    display: block;
+}
+
+#menu li.menu05 a:hover{
+    background: #000000;
+}
